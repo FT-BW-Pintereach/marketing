@@ -9,6 +9,13 @@ nav a:hover {
     color: #393e46;
 }
 
+.for-media{
+        @media @mobile {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+}
+
 .header-styles {
     padding: 10px;
     display: flex;
@@ -45,7 +52,7 @@ nav a:hover {
         @media @mobile {
             display: flex;
             width: 98%;
-            flex-flow: column wrap;
+            // flex-flow: column wrap;
             align-items: center;
         }
 }
