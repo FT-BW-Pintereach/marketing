@@ -165,8 +165,7 @@ body {
   background-color: #393e46;
 }
 .pictures {
-  border: 5px solid white;
-  background-color: white;
+  border: 1px solid white;
   display: flex;
   width: 500px;
   padding: 10px;
@@ -180,6 +179,9 @@ body {
     width: 100%;
   }
 }
+img {
+  border-radius: 10px;
+}
 .text-content {
   border: 2px dotted #f7f7f7;
   padding: 10px;
@@ -189,6 +191,7 @@ body {
   border-radius: 10px;
   width: 100%;
   line-height: 2;
+  font-size: large;
   font-family: 'Chakra Petch', sans-serif;
 }
 .top {
