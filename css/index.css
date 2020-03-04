@@ -170,7 +170,21 @@ body {
   display: flex;
   width: 500px;
   padding: 10px;
+  margin: 5px;
   height: auto;
+}
+.text-content {
+  border: 5px solid hotpink;
+  background-color: khaki;
+  padding: 10px;
+  margin: 5px;
+  font-size: 15px;
+}
+.top {
+  display: flex;
+  border: 5px solid black;
+  background-color: lavender;
+  padding: 10px;
 }
 header {
   display: flex;
