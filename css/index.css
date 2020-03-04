@@ -430,3 +430,8 @@ nav a:hover {
     height: auto;
   }
 }
+.about-content a:hover {
+  color: #929aab;
+  text-decoration: underline;
+  font-weight: bolder;
+}
