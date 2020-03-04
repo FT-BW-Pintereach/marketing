@@ -16,7 +16,7 @@ header{
 }
 
 .logo {
-    border: 2px solid #f7f7f7;
+    border: 2px solid @color;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -35,7 +35,7 @@ header{
         }
 
         h1 {
-            color: #f7f7f7;
+            color: @color;
             margin: 10px;
         }
 }
@@ -57,13 +57,13 @@ nav {
         }
 
     a {
-        border: 2px solid #f7f7f7;
+        border: 2px solid @color;
         padding: 10px;
         margin: 5px;
         display: flex;
         flex-flow: row nowrap;
         text-decoration: none;
-        color: #f7f7f7;
+        color: @color;
         font-size: large;
         border-radius: 10px;
         font-family: 'Chakra Petch', sans-serif;
@@ -73,6 +73,7 @@ nav {
 }
 
 nav a:hover {
-    background-color: white;
-    color: #393e46;
+    // background-color: white;
+    // color: #393e46;
+    color: .colors(@back-color,@color)
 }
