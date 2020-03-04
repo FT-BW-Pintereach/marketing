@@ -8,6 +8,13 @@
     height: auto;
     border-radius: 10px;
     // border-image: 10px;
+
+        @media @mobile {
+            // display: flex;
+            flex-direction: column;
+            width: 100%;
+
+        }
 }
 
 .text-content {
@@ -21,6 +28,15 @@
     width: 100%;
     line-height: 2;
     font-family: 'Chakra Petch', sans-serif;
+
+        // @media @mobile {
+        //     display: flex;
+        //     width: 98%;
+        //     flex-flow: column wrap;
+        //     justify-content: center;
+        //     align-items: center;
+        //     text-align: center;
+        // }
 }
 
 .top {
@@ -30,6 +46,15 @@
     padding: 10px;
     margin: 10px;
 
+    @media @mobile {
+        display: flex;
+        width: 98%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+
 }
 
 .bottom {
@@ -38,5 +63,14 @@
     // background-color: orchid;
     padding: 10px;
     margin: 10px;
+
+    @media @mobile {
+        display: flex;
+        width: 98%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
 
 }
