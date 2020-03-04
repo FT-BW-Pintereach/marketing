@@ -290,6 +290,10 @@ nav a {
   border-radius: 10px;
   font-family: 'Chakra Petch', sans-serif;
 }
+nav a:hover {
+  background-color: white;
+  color: #393e46;
+}
 footer {
   display: flex;
   justify-content: center;
@@ -305,6 +309,15 @@ footer {
   align-items: center;
   color: #f7f7f7;
   font-family: 'Chakra Petch', sans-serif;
+}
+@media (max-width: 500px) {
+  body {
+    padding: 20px;
+  }
+}
+nav a:hover {
+  background-color: white;
+  color: #393e46;
 }
 .header-styles {
   padding: 10px;
