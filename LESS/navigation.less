@@ -7,6 +7,15 @@ header{
     padding: 10px;
     justify-content: space-between;
     align-items: center;
+
+
+        @media @mobile {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-around;
+            align-items: center;
+            height: 20rem;
+        }
 }
 
 .logo {
@@ -22,6 +31,14 @@ header{
     margin: 10px;
     border-radius: 10px;
     font-family: 'Chakra Petch', sans-serif;
+
+
+        @media @mobile {
+            width: 60%;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
 
 }
 
@@ -45,21 +62,46 @@ nav {
     align-items: center;
     width: 20%;
     padding: 10px;
+
+
+        @media @mobile {
+            display: flex;
+            width: 90%;
+            justify-content: center;
+            align-items: center;
+        }
+
+    a {
+        border: 2px solid #f7f7f7;
+        // background-color: lightskyblue;
+        padding: 10px;
+        margin: 5px;
+        display: flex;
+        flex-flow: row nowrap;
+        // justify-content: flex-end;
+        // align-items: center;
+        text-decoration: none;
+        color: #f7f7f7;
+        font-size: large;
+        border-radius: 10px;
+        font-family: 'Chakra Petch', sans-serif;
+    
+    }
 }
 
-nav a {
-    border: 2px solid #f7f7f7;
-    // background-color: lightskyblue;
-    padding: 10px;
-    margin: 5px;
-    display: flex;
-    flex-flow: row nowrap;
-    // justify-content: flex-end;
-    // align-items: center;
-    text-decoration: none;
-    color: #f7f7f7;
-    font-size: large;
-    border-radius: 10px;
-    font-family: 'Chakra Petch', sans-serif;
+// nav a {
+//     border: 2px solid #f7f7f7;
+//     // background-color: lightskyblue;
+//     padding: 10px;
+//     margin: 5px;
+//     display: flex;
+//     flex-flow: row nowrap;
+//     // justify-content: flex-end;
+//     // align-items: center;
+//     text-decoration: none;
+//     color: #f7f7f7;
+//     font-size: large;
+//     border-radius: 10px;
+//     font-family: 'Chakra Petch', sans-serif;
 
-}
+// }
