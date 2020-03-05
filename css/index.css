@@ -164,6 +164,9 @@ img {
 body {
   background-color: #393e46;
 }
+body {
+  background-image: url("img/background.jpg");
+}
 .pictures {
   border: 1px solid white;
   display: flex;
